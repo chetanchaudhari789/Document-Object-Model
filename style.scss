@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-color: rgb(42, 39, 36);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  #box {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(156, 195, 86);
+    border-radius: 20px;
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      text-align: center;
+      font-size: 80px;
+    }
+  }
+
+  .btn {
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
