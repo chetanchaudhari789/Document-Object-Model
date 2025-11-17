@@ -74,8 +74,8 @@ let team = Math.floor(Math.random()*arr.length);
     // let c5 = Math.floor(Math.random()*256);
     // let c6 = Math.floor(Math.random()*256);
     
-     main.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
-    box.style.backgroundColor = `rgb(${c4},${c5},${c6})`;
+     main.style.backgroundColor = arr[team].primary;
+    box.style.backgroundColor = arr[team].secondary;
 
      
    text.innerText = arr[team].team;
